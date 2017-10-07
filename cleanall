@@ -1,0 +1,11 @@
+
+#!/bin/bash
+
+#This script will compile the five files for Program 4
+
+
+rm keygen
+rm otp_enc_d
+rm otp_enc
+rm otp_dec_d
+rm otp_dec

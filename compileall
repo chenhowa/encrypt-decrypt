@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#This script will compile the five files for Program 4
+
+gcc -Wall -pedantic keygen.c -o keygen 
+gcc -Wall -pedantic otp_enc_d.c -o otp_enc_d 
+gcc -Wall -pedantic otp_enc.c -o otp_enc 
+gcc -Wall -pedantic otp_dec_d.c -o otp_dec_d
+gcc -Wall -pedantic otp_dec.c -o otp_dec 
